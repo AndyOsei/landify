@@ -14,4 +14,12 @@ class ImagePath {
   static const microsoftLogo = '$imageDir/microsoft_logo.png';
   static const walmartLogo = '$imageDir/walmart_logo.png';
   static const fedexLogo = '$imageDir/fedex_logo.png';
+
+  // feature icons
+  static const featureIcon1 = '$imageDir/feature_icons/01.png';
+  static const featureIcon2 = '$imageDir/feature_icons/02.png';
+  static const featureIcon3 = '$imageDir/feature_icons/03.png';
+  static const featureIcon4 = '$imageDir/feature_icons/04.png';
+  static const featureIcon5 = '$imageDir/feature_icons/05.png';
+  static const featureIcon6 = '$imageDir/feature_icons/06.png';
 }

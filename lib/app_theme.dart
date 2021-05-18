@@ -76,6 +76,21 @@ final _textTheme = TextTheme(
   ),
 );
 
+// lead text styles
+final lead1 = GoogleFonts.inter(
+  fontWeight: _regular,
+  fontSize: 18.0,
+  height: 18.0 / 32.0,
+  color: AppColors.gray,
+);
+
+final lead2 = GoogleFonts.inter(
+  fontWeight: _medium,
+  fontSize: 14.0,
+  height: 14.0 / 24.0,
+  color: AppColors.gray,
+);
+
 // label text styles
 final largeLabel = GoogleFonts.inter(
   fontWeight: _semiBold,
