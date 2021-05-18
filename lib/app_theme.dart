@@ -76,6 +76,28 @@ final _textTheme = TextTheme(
   ),
 );
 
+// label text styles
+final largeLabel = GoogleFonts.inter(
+  fontWeight: _semiBold,
+  fontSize: 20.0,
+  height: 20.0 / 30.0,
+  color: AppColors.black,
+);
+
+final mediumLabel = GoogleFonts.inter(
+  fontWeight: _semiBold,
+  fontSize: 14.0,
+  height: 14.0 / 20.0,
+  color: AppColors.gray,
+);
+
+final smallLabel = GoogleFonts.inter(
+  fontWeight: _semiBold,
+  fontSize: 12.0,
+  height: 12.0 / 16.0,
+  color: AppColors.gray,
+);
+
 ThemeData themeData(ColorScheme colorScheme, Color focusColor) {
   return ThemeData(
     colorScheme: colorScheme,
