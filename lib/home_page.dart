@@ -8,8 +8,41 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.white,
       body: Column(
+        children: const [
+          Hero(),
+        ],
+      ),
+    );
+  }
+}
+
+class Hero extends StatelessWidget {
+  const Hero({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
+
+    return Container(
+      width: double.infinity,
+      height: 700,
+      decoration: const BoxDecoration(
+        color: Colors.red,
+        image: DecorationImage(
+          image: AssetImage(
+            ImagePath.background,
+          ),
+          fit: BoxFit.cover,
+        ),
+      ),
+      child: Column(
         children: [
-          NavBar(),
+          SizedBox(
+            width: size.width / 1.5,
+            child: const NavBar(),
+          ),
         ],
       ),
     );

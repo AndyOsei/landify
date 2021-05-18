@@ -18,51 +18,61 @@ final _textTheme = TextTheme(
     fontWeight: _extraBold,
     fontSize: 72.0,
     height: 72.0 / 98.0,
+    color: AppColors.black,
   ),
   headline2: GoogleFonts.inter(
     fontWeight: _extraBold,
     fontSize: 48.0,
     height: 48.0 / 64.0,
+    color: AppColors.black,
   ),
   headline3: GoogleFonts.inter(
     fontWeight: _extraBold,
     fontSize: 40.0,
     height: 40.0 / 54.0,
+    color: AppColors.black,
   ),
   headline4: GoogleFonts.inter(
     fontWeight: _extraBold,
     fontSize: 28.0,
     height: 28.0 / 40.0,
+    color: AppColors.black,
   ),
   headline5: GoogleFonts.inter(
     fontWeight: _semiBold,
     fontSize: 24.0,
     height: 24.0 / 32.0,
+    color: AppColors.black,
   ),
   headline6: GoogleFonts.inter(
     fontWeight: _medium,
     fontSize: 20.0,
     height: 20.0 / 30.0,
+    color: AppColors.black,
   ),
   subtitle1: GoogleFonts.inter(
     fontWeight: _bold,
     fontSize: 18.0,
     height: 18.0 / 28.0,
+    color: AppColors.black,
   ),
   subtitle2: GoogleFonts.inter(
     fontWeight: _medium,
     fontSize: 18.0,
     height: 18.0 / 28.0,
+    color: AppColors.black,
   ),
   bodyText1: GoogleFonts.inter(
     fontWeight: _regular,
     fontSize: 16.0,
     height: 16.0 / 26.0,
+    color: AppColors.gray,
   ),
   bodyText2: GoogleFonts.inter(
     fontWeight: _regular,
     fontSize: 14.0,
     height: 14.0 / 22.0,
+    color: AppColors.gray,
   ),
 );
 
