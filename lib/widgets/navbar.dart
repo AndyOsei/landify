@@ -14,15 +14,17 @@ class NavBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Logo(),
-              const SizedBox(width: 30.0),
-              _buildItems(textTheme),
-            ],
+          Flexible(
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Logo(),
+                const SizedBox(width: 30.0),
+                Flexible(child: _buildItems(textTheme)),
+              ],
+            ),
           ),
-          _buildImgLinks(),
+          Flexible(child: _buildImgLinks()),
         ],
       ),
     );
@@ -40,7 +42,7 @@ class NavBar extends StatelessWidget {
         const SizedBox(width: 30.0),
         Text('Jobs', style: textTheme.bodyText2),
         const SizedBox(width: 30.0),
-        _buildMore(textTheme),
+        Flexible(child: _buildMore(textTheme)),
       ],
     );
   }

@@ -17,61 +17,51 @@ final _textTheme = TextTheme(
   headline1: GoogleFonts.inter(
     fontWeight: _extraBold,
     fontSize: 72.0,
-    height: 72.0 / 98.0,
-    color: AppColors.black,
+    color: AppColors.gray,
   ),
   headline2: GoogleFonts.inter(
     fontWeight: _extraBold,
     fontSize: 48.0,
-    height: 48.0 / 64.0,
-    color: AppColors.black,
+    color: AppColors.gray,
   ),
   headline3: GoogleFonts.inter(
     fontWeight: _extraBold,
     fontSize: 40.0,
-    height: 40.0 / 54.0,
-    color: AppColors.black,
+    color: AppColors.gray,
   ),
   headline4: GoogleFonts.inter(
     fontWeight: _extraBold,
     fontSize: 28.0,
-    height: 28.0 / 40.0,
-    color: AppColors.black,
+    color: AppColors.gray,
   ),
   headline5: GoogleFonts.inter(
     fontWeight: _semiBold,
     fontSize: 24.0,
-    height: 24.0 / 32.0,
-    color: AppColors.black,
+    color: AppColors.gray,
   ),
   headline6: GoogleFonts.inter(
     fontWeight: _medium,
     fontSize: 20.0,
-    height: 20.0 / 30.0,
-    color: AppColors.black,
+    color: AppColors.gray,
   ),
   subtitle1: GoogleFonts.inter(
     fontWeight: _bold,
     fontSize: 18.0,
-    height: 18.0 / 28.0,
-    color: AppColors.black,
+    color: AppColors.gray,
   ),
   subtitle2: GoogleFonts.inter(
     fontWeight: _medium,
     fontSize: 18.0,
-    height: 18.0 / 28.0,
-    color: AppColors.black,
+    color: AppColors.gray,
   ),
   bodyText1: GoogleFonts.inter(
     fontWeight: _regular,
     fontSize: 16.0,
-    height: 16.0 / 26.0,
     color: AppColors.gray,
   ),
   bodyText2: GoogleFonts.inter(
     fontWeight: _regular,
     fontSize: 14.0,
-    height: 14.0 / 22.0,
     color: AppColors.gray,
   ),
 );
@@ -80,14 +70,12 @@ final _textTheme = TextTheme(
 final lead1 = GoogleFonts.inter(
   fontWeight: _regular,
   fontSize: 18.0,
-  height: 18.0 / 32.0,
   color: AppColors.gray,
 );
 
 final lead2 = GoogleFonts.inter(
   fontWeight: _medium,
   fontSize: 14.0,
-  height: 14.0 / 24.0,
   color: AppColors.gray,
 );
 
@@ -95,21 +83,18 @@ final lead2 = GoogleFonts.inter(
 final largeLabel = GoogleFonts.inter(
   fontWeight: _semiBold,
   fontSize: 20.0,
-  height: 20.0 / 30.0,
   color: AppColors.black,
 );
 
 final mediumLabel = GoogleFonts.inter(
   fontWeight: _semiBold,
   fontSize: 14.0,
-  height: 14.0 / 20.0,
   color: AppColors.gray,
 );
 
 final smallLabel = GoogleFonts.inter(
   fontWeight: _semiBold,
   fontSize: 12.0,
-  height: 12.0 / 16.0,
   color: AppColors.gray,
 );
 
