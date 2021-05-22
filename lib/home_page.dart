@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:landify/app_theme.dart';
 import 'package:landify/values/values.dart';
 import 'package:landify/widgets/navbar.dart';
 import 'package:landify/widgets/sections/features.dart';
 import 'package:landify/widgets/sections/heros.dart';
 import 'package:landify/widgets/sections/logos_list.dart';
+import 'package:landify/widgets/sections/singles.dart';
+import 'package:landify/widgets/sections/stats.dart';
 import 'package:landify/widgets/sections/testimonials.dart';
 
 class HomePage extends StatelessWidget {
@@ -30,6 +33,9 @@ class HomePage extends StatelessWidget {
               LogosList(),
               Features(),
               Testimonials(),
+              Stats(),
+              Single5(),
+              Single6(),
             ],
           ),
         ),

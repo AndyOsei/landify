@@ -9,6 +9,7 @@ class ImagePath {
   static const background = '$imageDir/bg.png';
   static const phoneMockup = '$imageDir/phone_mockup.png';
   static const quoteMark = '$imageDir/quote_mark.png';
+  static const coverImg = '$imageDir/cover_img.png';
 
   // company logos
   static const airbnbLogo = '$imageDir/airbnb_logo.png';
@@ -26,4 +27,7 @@ class ImagePath {
   static const featureIcon4 = '$imageDir/feature_icons/04.png';
   static const featureIcon5 = '$imageDir/feature_icons/05.png';
   static const featureIcon6 = '$imageDir/feature_icons/06.png';
+  static const featureIcon7 = '$imageDir/feature_icons/07.png';
+
+  static const arrowRightIcon = '$imageDir/right_arrow.png';
 }
