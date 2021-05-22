@@ -20,7 +20,7 @@ class Testimonials extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Align(
-            alignment: const Alignment(-0.56, -0.83),
+            alignment: const Alignment(-0.57, -0.75),
             child: Image.asset(ImagePath.quoteMark),
           ),
           Align(
@@ -127,28 +127,32 @@ class Testimony extends StatelessWidget {
         children: [
           Image.asset(icon),
           const SizedBox(height: 30),
-          Row(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Image.asset(
-                ImagePath.quoteMark,
-                width: 16,
-                height: 14,
-              ),
-              const SizedBox(width: 16),
-              SizedBox(
-                width: width != null ? width! * 0.7 : 100,
-                child: Text(
-                  message,
-                  softWrap: true,
-                  style: lead1.copyWith(
-                    letterSpacing: 1.0,
-                    height: 1.2,
+          Flexible(
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Flexible(
+                  child: Image.asset(
+                    ImagePath.quoteMark,
+                    width: 16,
+                    height: 14,
                   ),
                 ),
-              )
-            ],
+                const SizedBox(width: 16),
+                SizedBox(
+                  width: width != null ? width! * 0.7 : 100,
+                  child: Text(
+                    message,
+                    softWrap: true,
+                    style: lead1.copyWith(
+                      letterSpacing: 1.0,
+                      height: 1.2,
+                    ),
+                  ),
+                )
+              ],
+            ),
           ),
           const SizedBox(height: 24),
           Padding(
