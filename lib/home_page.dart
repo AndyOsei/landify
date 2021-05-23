@@ -24,21 +24,18 @@ class HomePage extends StatelessWidget {
         ),
       ),
       body: SingleChildScrollView(
-        child: Padding(
-          padding: const EdgeInsets.only(bottom: 24.0),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: const [
-              Heros(),
-              LogosList(),
-              Features(),
-              Testimonials(),
-              Stats(),
-              Single5(),
-              Single6(),
-              Cta(),
-            ],
-          ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: const [
+            Heros(),
+            LogosList(),
+            Features(),
+            Testimonials(),
+            Stats(),
+            Single5(),
+            Single6(),
+            Cta(),
+          ],
         ),
       ),
     );
