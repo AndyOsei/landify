@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:landify/app_theme.dart';
 import 'package:landify/values/values.dart';
 import 'package:landify/widgets/navbar.dart';
 import 'package:landify/widgets/sections/features.dart';
