@@ -24,7 +24,7 @@ class NavBar extends StatelessWidget {
               ],
             ),
           ),
-          Flexible(child: _buildImgLinks()),
+          const Flexible(child: ImageLinks()),
         ],
       ),
     );
@@ -59,8 +59,15 @@ class NavBar extends StatelessWidget {
       ],
     );
   }
+}
 
-  Row _buildImgLinks() {
+class ImageLinks extends StatelessWidget {
+  const ImageLinks({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
