@@ -3,6 +3,7 @@ import 'package:landify/values/values.dart';
 import 'package:landify/widgets/navbar.dart';
 import 'package:landify/widgets/sections/cta.dart';
 import 'package:landify/widgets/sections/features.dart';
+import 'package:landify/widgets/sections/footer.dart';
 import 'package:landify/widgets/sections/heros.dart';
 import 'package:landify/widgets/sections/logos_list.dart';
 import 'package:landify/widgets/sections/singles.dart';
@@ -35,6 +36,7 @@ class HomePage extends StatelessWidget {
             Single5(),
             Single6(),
             Cta(),
+            Footer(),
           ],
         ),
       ),
