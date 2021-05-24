@@ -1,16 +1,24 @@
 # landify
 
-A new Flutter project.
+A beautiful landing page to showcase your app built with flutter.
 
-## Getting Started
+Check it out here [landify](https://andyosei.github.io/landify/).
 
-This project is a starting point for a Flutter application.
+## Setup
 
-A few resources to get you started if this is your first Flutter project:
+- clone the project
+  ```
+  git clone https://github.com/AndyOsei/landify.git
+  ```
+- make sure you have flutter installed and run
+  ```
+  flutter run
+  ```
+- Run below to generate a release build for web
+  ```
+  flutter build web
+  ```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## SHOTS
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Preview](assets/screenshots/preview.png)
